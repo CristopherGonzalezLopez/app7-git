@@ -35,9 +35,9 @@
    
  <!--Para accesar a paginas de internet-->
  <allow-intent href="https://*/*"/>
- <acces origin="https://*/*"/>
- <allow-intent href="http://*/*"/>
  <acces origin="http://*/*"/>
+ <allow-intent href="http://*/*"/>
+ <acces origin="https://*/*"/>
  <plugin name="cordova-plugin-whitelist" source="npm"/>
  
  <!-- colocar icono app -->
